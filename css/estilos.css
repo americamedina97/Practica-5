@@ -1,0 +1,61 @@
+:root {
+    --naruto :orange;
+    --celda : black;
+    --harry: rgb(0, 255, 76);
+    --taylor: rgb(255, 0, 0);
+}
+body{
+    font-size: 32px;
+    font-family: Times New Roman;
+}
+
+nav a{
+
+        text-decoration: none;
+        font-size: 17px;
+        color: #000;
+ }
+ .inicio{
+    padding: 30px 7px;
+    border-radius: 10%;
+    border: 1px solid;
+    background-color: var(--naruto);
+    color: var(--taylor)
+   
+}
+.inicio:hover{
+    color: var(--celda);
+}
+.nosotros{
+    padding: 30px 7px;
+    border-radius: 10%;
+    border: 1px solid;
+    background-color: var(--celda);
+    color: var(--black);
+}
+.nosotros:hover{
+    color:var(--harry);
+}
+
+.actualizacion{
+    text-decoration: none;
+    padding: 30px 7px;
+    background-color: var(--naruto);
+    color: var(yellow);
+    border-radius: 10%;
+    border: 1px solid;
+}
+.actualizacion:hover{
+    background-color: var(--taylor);
+}
+.iniciarsesion{
+    text-decoration: none;
+    padding: 30px 7px;
+    background-color: var(--naruto);
+    color: var(--black);
+    border-radius: 10%;
+    border: 1px solid;
+}
+.iniciarsesion:hover{
+    background-color: var(--harry);
+}
